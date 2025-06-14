@@ -1,0 +1,15 @@
+/run/initialize
+/analysis/setFileName e+_1GeV
+
+/demo/gun/particle geantino
+/demo/gun/energy 1.0 # in GeV
+/demo/gun/beamType random
+
+# *** NEW COMMANDS ***
+/demo/gun/beamTiltAngle 2.09 #in rad
+/demo/gun/rotCenterDist 472.5 #in mm
+# ********************
+
+/demo/gun/beamProfileFile beamProfile_e-_5GeV.root
+
+/run/beamOn 24144

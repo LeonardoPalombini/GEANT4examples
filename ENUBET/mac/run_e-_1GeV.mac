@@ -1,0 +1,32 @@
+/run/initialize
+
+# Set the output filename taht will contain simulation data
+/analysis/setFileName
+
+# Specify the particle type to be generated (e+, pi+, etc.)
+/demo/gun/particle e-
+
+# Specify the energy of the particle to be generated (values in GeV)
+/demo/gun/energy 1.0
+
+# Specify from where to get beam profile:
+# random = random distribution of particles is generated (10x10 cm^2 flat with 0.5 deg gaussian divergence);
+# histo = beam profile is sampled from histograms provided in root files;
+# Default value is histo even if not using the command explicitly
+/demo/gun/beamType histo
+
+# The seed to be used when sampling beam profile from histograms.
+# If you want to run more than one simulation in parallel, and each one with events generated independently, 
+# you need to set the value to 0 (a random seed is set for each run)
+/demo/gun/beamSeed 0
+
+# When beamType is set to random, in order to change the seed of the generated events you must use the following
+# command, and not the beamSeed one. A random pair of integers can be set
+#/random/setSeeds 16315 5059
+
+# Specify the root file containing the beam profile histograms.
+# If not used, the beam profile will be sampled from random distribution, but beamType command must
+# be set to random (otherwise the simulation will try to get the histograms from a zombie file)
+/demo/gun/beamProfileFile
+
+/run/beamOn 1000

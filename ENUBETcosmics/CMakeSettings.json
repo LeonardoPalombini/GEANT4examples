@@ -1,0 +1,142 @@
+﻿{
+    "configurations": [
+        {
+            "name": "x64-Release",
+            "generator": "Ninja",
+            "configurationType": "RelWithDebInfo",
+            "buildRoot": "${projectDir}\\out\\build\\${name}",
+            "installRoot": "${projectDir}\\out\\install\\${name}",
+            "cmakeCommandArgs": "",
+            "buildCommandArgs": "",
+            "ctestCommandArgs": "",
+            "inheritEnvironments": [ "msvc_x64_x64" ],
+            "variables": [
+                {
+                    "name": "ROOT_Core_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libCore.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Gpad_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libGpad.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Graf3d_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libGraf3d.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Graf_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libGraf.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Hist_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libHist.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Imt_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libImt.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_MathCore_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libMathCore.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Matrix_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libMatrix.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Net_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libNet.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Physics_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libPhysics.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_RIO_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libRIO.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_ROOTVecOps_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libROOTVecOps.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_rootcling_CMD",
+                    "value": "C:/root_v6.28.02/bin/rootcling.exe",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_rootcint_CMD",
+                    "value": "C:/root_v6.28.02/bin/rootcint.exe",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_hadd_CMD",
+                    "value": "C:/root_v6.28.02/bin/hadd.exe",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_genreflex_CMD",
+                    "value": "C:/root_v6.28.02/bin/genreflex.exe",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Tree_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libTree.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_TreePlayer_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libTreePlayer.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Thread_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libThread.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Rint_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libRint.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_ROOTDataFrame_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libROOTDataFrame.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_Postscript_LIBRARY",
+                    "value": "C:/root_v6.28.02/lib/libPostscript.lib",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "CMAKE_INSTALL_PREFIX",
+                    "value": "C:/Users/Mauro/Geant4/Zproj/ENUBET/G4mod/out/install/x64-Release",
+                    "type": "PATH"
+                },
+                {
+                    "name": "ROOT_root_CMD",
+                    "value": "C:/root_v6.28.02/bin/root.exe",
+                    "type": "FILEPATH"
+                },
+                {
+                    "name": "ROOT_DIR",
+                    "value": "C:/root_v6.28.02",
+                    "type": "PATH"
+                }
+            ]
+        }
+    ]
+}
